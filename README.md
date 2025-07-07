@@ -22,6 +22,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
+- In the Virtual Machine in Azure, you will download and unzip the osTicket-installation-files.zip
 - Enable IIS & CGI
 IIS is required to host the web application, and CGI allows PHP scripts to run.
 - Install PHP Manager for IIS
