@@ -83,3 +83,51 @@ Restarted IIS
 This allows IIS to recognize and run PHP scripts.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Install MySQL & Create Database
+
+Installed MySQL 5.5.62 and set up a root password
+
+Used HeidiSQL to connect and create a new database named osTicket
+
+The database is where all ticket and system data will be stored.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Deploy osTicket Files
+
+Unzipped osTicket-v1.15.8.zip
+
+Copied the upload folder to C:\inetpub\wwwroot
+
+Renamed it to osTicket
+
+This is how the web server serves the osTicket application.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Enable Required PHP Extensions
+
+Enabled php_imap.dll, php_intl.dll, and php_opcache.dll in PHP Manager
+
+These are needed for email integration, international support, and performance.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Run osTicket Web Installer
+
+Opened http://localhost/osTicket in a browser
+
+Entered site/admin info and database details
+
+Finalizde the setup and confirmed everything was working.
