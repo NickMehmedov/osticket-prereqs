@@ -130,4 +130,4 @@ Opened http://localhost/osTicket in a browser
 
 Entered site/admin info and database details
 
-Finalizde the setup and confirmed everything was working.
+Finalized the setup and confirmed everything was working.
