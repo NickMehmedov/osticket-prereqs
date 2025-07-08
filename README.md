@@ -42,7 +42,6 @@ MySQL is the database for osTicket. HeidiSQL was used to connect and create the 
 
 <p>
 ![Disk Sanitization Steps](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20003709.png)
-
 <p>
 Enable IIS & CGI
 
