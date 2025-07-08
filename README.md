@@ -66,8 +66,8 @@ This sets up the web server and allows PHP to function properly.
 <br />
 
 <p>
-[<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20004408.png)
+![Disk Sanitization Steps](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20004408.png)
+
 <p>
 Install PHP Manager & Rewrite Module
 
