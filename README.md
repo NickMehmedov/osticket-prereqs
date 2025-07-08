@@ -65,10 +65,10 @@ This sets up the web server and allows PHP to function properly.
 </p>
 <br />
 
-<p>
+
 ![Disk Sanitization Steps](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20004408.png)
 
-<p>
+
 Install PHP Manager & Rewrite Module
 
 Installed PHPManagerForIIS_V1.5.0.msi
