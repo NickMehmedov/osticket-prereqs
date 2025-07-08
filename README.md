@@ -94,9 +94,7 @@ This allows IIS to recognize and run PHP scripts.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
 Install MySQL & Create Database
 
@@ -106,9 +104,8 @@ Used HeidiSQL to connect and create a new database named osTicket
 
 The database is where all ticket and system data will be stored.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![Screenshot 1](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20004341.png)
+
 <p>
 Deploy osTicket Files
 
@@ -120,9 +117,8 @@ Renamed it to osTicket
 
 This is how the web server serves the osTicket application.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![Screenshot 2](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20005504.png)
+
 <p>
 Enable Required PHP Extensions
 
@@ -130,9 +126,10 @@ Enabled php_imap.dll, php_intl.dll, and php_opcache.dll in PHP Manager
 
 These are needed for email integration, international support, and performance.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>![Screenshot 3](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20010751.png)
+
+
 <p>
 Run osTicket Web Installer
 
@@ -141,3 +138,5 @@ Opened http://localhost/osTicket in a browser
 Entered site/admin info and database details
 
 Finalized the setup and confirmed everything was working.
+![Screenshot 4](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/455268971-79bdbc68-dab7-42f6-a237-24949c807afd.png)
+
