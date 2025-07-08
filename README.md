@@ -41,8 +41,18 @@ MySQL is the database for osTicket. HeidiSQL was used to connect and create the 
 <h2>Installation Steps</h2>
 
 <p>
-[![Disk Sanitization Steps](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20003709.png)
-<p>](https://https//raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/disk-sanitization.png.png)
+## Installation Steps
+
+![Disk Sanitization Steps](https://raw.githubusercontent.com/NickMehmedov/osticket-prereqs/main/Screenshot%202025-07-08%20003709.png)
+
+Enable IIS & CGI
+
+Open Control Panel → Turn Windows features on or off
+
+Enable Internet Information Services
+
+Under Application Development Features, enable CGI
+
 Enable IIS & CGI
 
 Open Control Panel → Turn Windows features on or off
